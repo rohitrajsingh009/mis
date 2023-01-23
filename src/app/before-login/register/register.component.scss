@@ -1,13 +1,85 @@
-p {
-    font-family: Lato;
-  }
+.common-details{
+  width: 100%;
+  display: block;
+
+}
+.pic{
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
   
+}
+.pic img {
+  width: 100%;
+
+}
+.form-details{
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.form-details .logo{
+  padding:30px 0 30px;
+  width: 100%;
+  display: block;
+  text-align: center;
+
+}
+
+.form-details .form-section{
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 60px;
+}
+.wrapper{
+  margin: 0px auto;
+  width: 1100px;
+}
+.form-details h3{
+  font-size: 40px;
+  line-height: 45px;
+  text-align: left;
+  padding-bottom:33px;
+}
+.form-details p{
+  text-align: left;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 50px;
+}
+
+.form-row{ width: 100%;
+  display: block;
+  text-align: left;
+}
+.form-details label{
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  line-height: 16px;
+  color: gray;
+  font-weight: normal;
+  padding-bottom: 15px;
+
   
-  .btn-default {
-    direction: rtl;
-  
-  }
-  
-  .btn-change {
-   direction:ltr;
-  }
+}
+.form-details .text{ width: 70%; padding:12px 10px 14px; background-color: #fff; font-size: 14px;
+   line-height: 25px; color: #000; border:1px solid #d8d8d8; border-radius:5px;}
+.form-details .text:focus{color: #000; border:1px solid #d8d8d8; }
+.form-details .text_input{border-bottom:5px solid #5ad05f;}
+.form-details .error_sms{ font-size: 14px;line-height: 16px; color: rgb(203, 26, 26); display: none;}
+
+.form-details .icon{ position: relative;}
+.form-details .icon i{ position: absolute; right: 20px; top:0px; font-size: 20px;}
+
+.form-details .rememberme{ padding-top: 5px; display: inline-block; width:48%; font-size: 14px;line-height: 16px; color: #000;
+
+}
+.form-details .rememberme input{ margin-right: 5px; display: inline-block; font-size: 14px; line-height: 16px; color: #000;}
+.form-details .password{display: inline-block;font-size: 14px; line-height: 16px; color: #FD831B!important;
+
+}
+.form-details .login{ margin-top: 25px;; width: 70%; padding:15px 10px 16px;background-color: #f58220; font-size: 14px;
+  line-height: 25px; color: #fff; border:1px solid #f58220; border-radius:5px; cursor: pointer;}
